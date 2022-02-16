@@ -147,12 +147,12 @@ int main()
         highway.addVehicle(&car);
     }
 
-    for( Motorcycle& motorcycle : motorcycles)
+    for( auto& motorcycle : motorcycles)
     {
         highway.addVehicle(&motorcycle);
     }
 
-    for ( SemiTruck& truck : trucks)
+    for ( auto& truck : trucks)
     {
         highway.addVehicle(&truck);
     }
